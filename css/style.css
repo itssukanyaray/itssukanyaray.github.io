@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 @import url('http://fonts.cdnfonts.com/css/tomatoes');
-@import url('http://fonts.cdnfonts.com/css/beatrise');
+/* @import url('http://fonts.cdnfonts.com/css/beatrise'); */
 
 
 
@@ -20,18 +20,23 @@
     --neon-color: #1f1f1f;
 }
 
+@font-face {
+    font-family: "Beatrise";
+    src: url(/fonts/Beatrise.ttf) format("truetype");
+  }
+
 /* ==== LOGO ==== */
 .logo{
-    /* text-transform: uppercase; */
-    cursor: pointer;
-    /* font-family: 'Signatria', sans-serif; */
-                                                
+    cursor: pointer;                                           
     font-family: 'Beatrise', sans-serif;
-    font-size: 2.2em;
+    /* font-size: 2.2em; */
     font-weight: 10;
-
-
+    text-decoration: none;
+    font-size: 1.49em;
+    font-weight: 10;
 }
+
+
 
 .neon-text {
     color: #fff;
@@ -79,36 +84,7 @@
   }
 
 
-  @keyframes pulsate {
-    
-    100% {
-  
-        text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px #f09,
-        0 0 80px #f09,
-        0 0 90px #f09,
-        0 0 100px #f09,
-        0 0 150px #f09;
-    
-    }
-    
-    0% {
-  
-      text-shadow:
-      0 0 4px #fff,
-      0 0 10px #fff,
-      0 0 18px #fff,
-      0 0 38px #f09,
-      0 0 73px #f09,
-      0 0 80px #f09,
-      0 0 94px #f09,
-      0 0 140px #f09;
-  
-  }}
-
+ 
 .showcase{
     position: absolute;
     right: 0;

@@ -1,4 +1,8 @@
-@import url('http://fonts.cdnfonts.com/css/beatrise');
+/* @import url('http://fonts.cdnfonts.com/css/beatrise'); */
+@font-face {
+  font-family: "Beatrise";
+  src: url(/fonts/Beatrise.ttf) format("truetype");
+}
 
 :root{
     --theme-color: #ca6239;

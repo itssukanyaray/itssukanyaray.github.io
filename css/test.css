@@ -1,0 +1,19 @@
+
+
+@font-face {
+    font-family: "MemphisRiver";
+    /* src: url(/fonts/MemphisRiver.ttf) format("truetype"); */
+    src: url(/fonts/Beatrise.ttf) format("truetype");
+  }
+
+  
+
+    body{
+        font-family: 'MemphisRiver', sans-serif;
+        font-size: 2.2em;
+        font-weight: 10;
+    }
+    h1 {
+        font-family: "MemphisRiver", sans-serif;
+        font-size: 7em;
+      }
